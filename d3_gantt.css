@@ -1,0 +1,27 @@
+.x path,
+.y path {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.bar {
+    border-radius: 99px;
+}
+
+.bg_bar {
+    opacity: 0.1
+}
+
+    div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 60px;					
+    height: 28px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
